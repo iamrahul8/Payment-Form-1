@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+<form action="" method="get">
+<h1 class="main_heading">
+    User Information
+</h1>
+
+<p> Name : * <input type="text" name="name" placeholder="Your name" required>
+
+
+</p>
+
+<p>
+    <fieldset>
+        <legend>
+            Gender
+        </legend>
+        Male <input type="radio" name="gender" id="male" value="M"> &nbsp;&nbsp;Female <input type="radio" name="gender" id="female" value="F">
+    </fieldset>
+</p>
+
+<p>
+    Address :
+    <textarea placeholder="Enter your Address" id="address"></textarea>
+</p>
+<p>
+    Email :* <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required>
+</p>
+<p>
+    Pincode : <input type="number" placeholder="123456">
+
+</p>
+<br>
+<h1 class="main_heading">
+    Payment Information
+</h1>
+<p>
+    Card-type:* <select>
+        <option >
+           Select card
+        </option>
+        <option >
+            Visa
+        </option>
+        <option>
+Rupay
+        </option>
+        <option>
+            Master card 
+        </option>
+    </select>
+</p>
+
+<p>
+    Card number:* <input type="number" name="card-number" placeholder="1234-2345-2345-2345" required>
+</p>
+
+<p>
+    Expiration Date:* <input type="date" name="expiry" >
+
+</p>
+
+<p>
+    Cvv:* <input type="number" placeholder="124" name="cvv">
+
+</p>
+
+<p>
+    <input type="button" value="Submit" name="Pay now">
+</p>
+
+
+
+
+
+
+</form>
+
+
+    </div>
+
+
+</body>
+</html>
